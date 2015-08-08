@@ -1,9 +1,9 @@
-# hoganjs-render
+# hogans
 
 ## usage
 
 ```js
-var render    = require('hoganjs-render')
+var render    = require('hogans')
 var filePath  = __dirname + '/path/to/template.ext'
 var dashboard = render(filePath)
 
@@ -28,7 +28,7 @@ $ curl -sS -v http://localhost:8080?title=Poo
 
 ## api
 
-### var render = require('hoganjs-render')
+### var render = require('hogans')
 
 ### var f = render(templatePath)
 
